@@ -23,7 +23,6 @@ print(conn)
 if conn.get('1.1.1.1') is not None:
     print("is not none")
 
-
 dict_list = {}
 nonelist = []
 
@@ -49,3 +48,11 @@ print(dict_list)
 data = []
 data = dict_list.get('3.3.3.3')
 print(data)
+
+print("****************************")
+di = {}
+start = [1, 2, 3, 2]
+for item in start:
+    di.setdefault(item, [])
+    di[item].append(item * 100)
+print(di)

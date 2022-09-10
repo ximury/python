@@ -1,0 +1,1 @@
+{"Name": "com.kylin.kysdk.systemsettings", "Path": "/com/kylin/kysdk/screensaver", "Interfaces": "com.kylin.kysdk.screensaver", "params": {"Enable": [true], "AutoLockEnable": [true], "AutoLockTime": [600]}}

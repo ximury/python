@@ -7,3 +7,7 @@ b = sorted(dic.items(), key=lambda i: i[0], reverse=True)
 print(b)
 
 print(dict(b))
+
+for item in dic:
+    print(item)
+print(len(dic))

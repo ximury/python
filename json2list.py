@@ -9,6 +9,8 @@ print(encoded_json, type(encoded_json))
 decode_json = json.loads(encoded_json, strict=True)
 print(decode_json, type(decode_json))
 
+# ----------------------------------
+
 l = {'001': '001', '002': '002'}
 # json.dumps 将字典转化为json字符串
 dic = json.dumps(l)
@@ -20,3 +22,16 @@ print(l_new, type(l_new))
 print(json.dumps(True), type(json.dumps(True)))
 
 print(str(True))
+
+# ----------------------------------
+
+# n = ''
+# n_new = json.loads(n)
+# print(n_new, type(n_new))
+
+print("*************")
+form = {}
+form["loopJson"] = '{"q": 1}'
+form["loopJson"] = ''
+a = json.loads(form.get("loopJson")) if form.get("loopJson") else ""
+print(a)

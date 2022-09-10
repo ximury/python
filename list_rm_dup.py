@@ -34,3 +34,23 @@ print(list_test3 == list_test4)
 list_test5 = []
 list_test5 = list_test4
 print(list_test5)
+
+# list去重
+list_test = [11, 12, 13, 12, 14, 15, 15, 16]
+
+a = list(set(list_test))
+print(a)
+
+print("***********************")
+
+object_id_list = []
+object_id_list.append("11")
+print(object_id_list)
+object_id_list = list(set(object_id_list))
+print(object_id_list)
+
+
+# 空list去重
+list_test = []
+a = list(set(list_test))
+print(a)

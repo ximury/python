@@ -25,9 +25,7 @@ print(login_time_port)
 
 print(login_time_port.get('1100')[0])
 
-
 print('999999999999999999999999999999999999999999')
-
 
 ip_port = {"['172.17.129.220', 'control']": '6080', "['172.17.129.221', 'control']": '6081'}
 print(ip_port.keys())
@@ -37,3 +35,27 @@ if str(key) in ip_port.keys():
     del ip_port[key]
 
 print(ip_port)
+
+print('000000000000000000000000000000000000000000')
+
+block_remote_ip = ['172.17.129.54', '172.17.129.51']
+remote_web_addr = {
+    '172.17.129.54': ['172.17.129.232'],
+    '172.17.129.50': ['172.17.129.232'],
+    '172.17.129.51': ['172.17.129.231']
+}
+for remote_ip in block_remote_ip:
+    remote_web_addr.__delitem__(remote_ip)
+
+print(block_remote_ip)
+print(remote_web_addr)
+
+print("*****************************")
+di = {
+    '172.17.129.54': ['172.17.129.232'],
+    '172.17.129.50': ['172.17.129.232'],
+    '172.17.129.51': ['172.17.129.231']
+}
+i = '172.17.129.58'
+di.__delitem__(i)
+print(di)

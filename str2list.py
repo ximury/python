@@ -37,3 +37,10 @@ print(_tuple, type(_tuple))
 li = list(_tuple)
 print(li, type(li))
 print(li[0], type(li[0]))
+
+print("==========================")
+
+str = "[1, 2, 3]"
+li = ast.literal_eval(str)
+print(li, type(li))
+print("res: {}".format(li))

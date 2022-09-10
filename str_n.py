@@ -9,6 +9,9 @@ print(lt2)
 
 str_none = ''
 
+if str_none:
+    print("*****************")
+
 if len(str_none):
     print('str_none is not none')
 else:
@@ -33,4 +36,8 @@ print(str.endswith('kim.local'))
 
 print('-------------------')
 print('192.188.20.216' > '192.188.20.22')
+
+print('-------------------')
+str1 = '======================'
+print(len(str1))
 

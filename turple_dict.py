@@ -5,3 +5,10 @@ for item in li:
     dic[item[0]] = item[1]
 
 print(dic)
+
+
+li = [('slbclient.qwe.local',), ('success.qwe.local.qwe.local',), ('sh.qwe.local',)]
+host_list_old = []
+for item in li:
+    host_list_old.append(item[0])
+print(host_list_old)

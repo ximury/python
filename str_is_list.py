@@ -6,3 +6,4 @@ str2 = "[0, u'2\n4\n1']"
 
 print(isinstance(str1, list))
 print(isinstance(str2, list))
+

@@ -30,5 +30,12 @@ file_list = sorted(file_list, key=operator.itemgetter('name'))
 print(file_list)
 
 print('-----')
-print(file_list+file_list)
+print(file_list + file_list)
 print(file_list)
+
+print("-----------------------")
+a1 = [2, 3]
+
+for index in range(len(a1)):
+    print(index, end="--")
+    print(a1[index])

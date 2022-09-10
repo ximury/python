@@ -34,3 +34,17 @@ list[2][0] = 100
 print(list, id(list))
 print(l1, id(l1))
 print(l2, id(l2))
+
+print("************")
+di = {"a": 1, "b":2, "c":{"asd": "qwe"}}
+di1 = copy.copy(di)
+di1["c"] = 234
+print(di1)
+print(di)
+
+print("************")
+di = {"a": 1, "b":2, "c":{"asd": "qwe"}}
+di1 = copy.copy(di)
+di["c"] = 372
+print(di1)
+print(di)

@@ -48,6 +48,8 @@ if '111' in dict5['verification'].keys():
 dict6 = {'url': ['111', '011', '222', '022']}
 dict6['url'].remove('111')
 print(dict6)
+res = dict6.get('url1', '111')
+print(res)
 
 print('-------------------------')
 res = {}
@@ -58,3 +60,12 @@ print(res)
 
 for item in res:
     print(res.get(item))
+
+dic1 = {'1': 'a', '2': 'b', '3': 'c'}
+print(dic1.keys())
+li = list(dic1.keys())
+print(li, type(li))
+
+for item in dic1:
+    print(item, end=': ')
+    print(dic1[item])

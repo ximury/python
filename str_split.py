@@ -68,3 +68,14 @@ print(first)
 # print(type(terminal_user_area_id))
 # print(terminal_user_name)
 # print(terminal_user_area_id)
+
+print("************************")
+
+video_file_dir = "/home/apt-data/static/vnc/"
+res = video_file_dir.split("/")[-2]
+print(res)
+
+print("----------")
+video_file_dir = "/home/apt-data/static//"
+res = video_file_dir.split("/")[-2]
+print(res)
